@@ -1,4 +1,6 @@
 require('basic')
 require('keybindings')
-require('plugins.lualine')
 require('plugins.plugins-setup')
+require('plugins.nvim-tree')
+require('plugins.lualine')
+
