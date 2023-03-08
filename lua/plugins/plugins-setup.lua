@@ -43,6 +43,10 @@ return require('packer').startup(function(use)
 
   use "akinsho/bufferline.nvim" -- buffer分割线
   use "lewis6991/gitsigns.nvim" -- 左则git提示
+  use {
+    'nvim-telescope/telescope.nvim', tag = '0.1.1',  -- 文件检索
+    requires = { {'nvim-lua/plenary.nvim'} }
+  }
   -- use 'christoomey/vim-tmux-navigator' -- 用 ctrl+hjkl 来切换目录与文件
   -- My plugins here
   -- use 'foo1/bar1.nvim'

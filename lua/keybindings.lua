@@ -7,8 +7,9 @@ local opt = {noremap = true, silent = true }
 
 -- 插件 --
 map("n", "<leader>e", ":NvimTreeToggle<CR>", opt)
---
-
+-- 切换 buffer 
+map("n", "<C-L>", ":bnext<CR>", opt)
+map("n", "<C-H>", ":bprevious<CR>", opt)
 -- 取消 s 默认功能
 map("n", "s", "", opt)
 -- windows 分屏快捷键
