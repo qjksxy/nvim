@@ -23,6 +23,9 @@ return require('packer').startup(function(use)
       'nvim-tree/nvim-web-devicons', -- optional, for file icons
     }
   }
+  use 'nvim-treesitter/nvim-treesitter'
+  use 'p00f/nvim-ts-rainbow'
+  -- use 'christoomey/vim-tmux-navigator' -- 用 ctrl+hjkl 来切换目录与文件
   -- My plugins here
   -- use 'foo1/bar1.nvim'
   -- use 'foo2/bar2.nvim'
