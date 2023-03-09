@@ -31,6 +31,7 @@ return require('packer').startup(function(use)
     'neovim/nvim-lspconfig'
   }
     -- 自动补全
+  -- use { 'neoclide/coc.nvim', branch = 'release' }
   use "hrsh7th/nvim-cmp"
   use "hrsh7th/cmp-nvim-lsp"
   use "L3MON4D3/LuaSnip" -- snippets引擎，不装这个自动补全会出问题
