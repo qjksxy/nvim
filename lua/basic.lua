@@ -1,5 +1,5 @@
 -- 主题
-vim.cmd[[colorscheme tokyonight]]
+vim.cmd[[colorscheme tokyonight-moon]]
 -- utf8
 vim.g.encoding = "UTF-8"
 vim.o.fileencoding = 'utf-8'
