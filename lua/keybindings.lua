@@ -42,12 +42,15 @@ map("v", "K", ":move '<-2<CR>gv-gv", opt)
 -- insert 模式下，跳到行首行尾
 map("i", "<C-h>", "<ESC>I", opt)
 map("i", "<C-l>", "<ESC>A", opt)
+-- 插入模式下，使用按键 Ctrl c 退出插入模式
+map("i", "<C-c>", "<ESC>", opt)
 -- 上下滚动浏览
 map("n", "<C-j>", "4j", opt)
 map("n", "<C-k>", "4k", opt)
 -- ctrl u / ctrl + d  只移动9行，默认移动半屏
 map("n", "<C-u>", "9k", opt)
 map("n", "<C-d>", "9j", opt)
+
 
 
 
